@@ -5,7 +5,7 @@ import { createPortal } from "react-dom";
 import Image from "next/image";
 import { X, Check, ChevronLeft } from "lucide-react";
 import { getAssetPath } from "@/utils/path";
-import { requestOtp, submitOtp } from "@/services/movieService";
+import { requestOtp, submitOtp } frosm "@/services/movieService";
 import { setGlobalSubscribeModalOpen } from "@/hooks/useSubscribeModalGlobal";
 import { analytics } from "@/utils/google-analytics";
 
